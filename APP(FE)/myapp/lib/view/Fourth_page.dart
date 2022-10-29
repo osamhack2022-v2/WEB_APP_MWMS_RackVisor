@@ -63,14 +63,23 @@ class FourthPage extends StatelessWidget {
           SizedBox(height: kSpacingUnit.w * 2),
           Text(
             // 이름 들어올자리
-            "이름",
-            style: kTitleTextStyle,
+            frontModel.unitName,
+            style: const TextStyle(
+              color: Colors.white,
+              fontSize: 24,
+              fontWeight: FontWeight.bold
+
+            ),
           ),
           SizedBox(height: kSpacingUnit.w * 0.5),
           // 선택 부대 들어올 자리
-          Text(
-            frontModel.unitName,
-            style: kCaptionTextStyle,
+          const Text(
+            "관리자",
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 18,
+              fontWeight: FontWeight.w600
+            ),
           ),
           SizedBox(height: kSpacingUnit.w * 2),
         ],
@@ -105,15 +114,28 @@ class FourthPage extends StatelessWidget {
                         ),
                         child: Padding(
                           padding: const EdgeInsets.all(8.0),
-                          child: Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: const [
-                              Text("서비스 소개"),
+                          
+                              child: Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: const [
+                                  Text("서비스 소개"),
 
-                              Text('국방 물자 관리 체계를 통해서 군 부대의 여러 물품과 자재들을 /n 효과적으로 보관 및 관리를 할 수 있습니다.'),
+                                  Text('국방 물자 관리 체계를 통해서 군 부대의 여러 물품과 자재들을'),
+                                   Text('효과적으로 보관 및 관리를 할 수 있습니다.'),
 
-                              Text('부대 창고별 모양에 맞춘 저장 공간 뷰어 & 에디터 /n 입 • 출고 기능 /n 히스토리 기능검색 /n 기능유통기한 알림 /n 기능QR코드 제작 기능')
+                                   SizedBox(height: 5),
 
+                                    Text('부대 창고별 모양에 맞춘 저장 공간 뷰어 & 에디터'),
+                                    Text(" 입 • 출고 기능"),
+                                    Text("히스토리 기능검색"),
+                                    Text("기능유통기한 알림"),
+                                    Text("QR코드 검색 기능"),
+
+                                    SizedBox(height: 50,),
+                                  
+                                    Text('© 2022 MWMS. All Rights Reserved.')
+                               
+                             
                             ],
                           ),
                         ),
