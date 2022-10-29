@@ -2,9 +2,10 @@
 
 <br/>
 
-<div align='center'>
+<div align='center'>  
+https://rackvisor.duckdns.org  
 
-![Logo](<https://raw.githubusercontent.com/osamhack2022/WEB_APP_MWMS_RackVisor/master/WEB(FE)/mwms/src/images/logo.png>)
+[![Logo](<https://raw.githubusercontent.com/osamhack2022/WEB_APP_MWMS_RackVisor/master/WEB(FE)/mwms/src/images/logo.png>)](https://rackvisor.duckdns.org/)
 
 ---
 
@@ -20,7 +21,7 @@
 
 </div>
 
-<div  align="center"><img src="docs\image\mwms-logo.PNG"></div>
+<div align="center"><img src="docs\image\mwms-logo.PNG"></div>
 
 <br/><br/>
 
