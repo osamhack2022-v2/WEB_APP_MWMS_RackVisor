@@ -70,11 +70,12 @@ class _LoginPageState extends State<LoginPage> {
       body: Form(
           key: _formKey,
           child: SingleChildScrollView(
-            child: Column(children: [
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
 
-              SizedBox(
-                width: MediaQuery.of(context).size.width * 0.8,
-                height: 195,
+              Container(
+                height: 175,
                 child: Image.asset(
                   'images/main_logo.png',
                   fit: BoxFit.scaleDown,
@@ -86,7 +87,7 @@ class _LoginPageState extends State<LoginPage> {
                 '국방물자관리체계',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  fontSize: 36.sp,
+                  fontSize: 48.sp,
                 ),
               ),
 
@@ -94,9 +95,9 @@ class _LoginPageState extends State<LoginPage> {
 
               // 소개글
               Text(                                                         
-                "Military Warehouse \n Management System",
+                " Military Warehouse \nManagement System",
                 style: TextStyle(
-                  fontSize: 24.sp,
+                  fontSize: 30.sp,
                 ),
               ),
 
