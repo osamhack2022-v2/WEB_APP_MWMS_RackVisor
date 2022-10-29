@@ -60,8 +60,6 @@ export async function loginHandler(
     });
     return reply
       .setCookie('token', accessToken, {
-        // TODO: Uncomment line for production
-        // domain: '211.37.150.202',
         path: '/'
       })
       .code(200)
