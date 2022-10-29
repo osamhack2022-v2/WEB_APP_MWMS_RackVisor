@@ -2,10 +2,9 @@
 
 <br/>
 
-<div align='center'>  
-https://rackvisor.duckdns.org  
+<div align='center'>
 
-[![Logo](<https://raw.githubusercontent.com/osamhack2022/WEB_APP_MWMS_RackVisor/master/WEB(FE)/mwms/src/images/logo.png>)](https://rackvisor.duckdns.org/)
+<div align="center"><a href="https://rackvisor.duckdns.org/"><img src="docs\image\mwms-logo.PNG"></a></div>
 
 ---
 
@@ -16,14 +15,12 @@ https://rackvisor.duckdns.org
 
 ---
 
-<a href=''><img src='https://img.shields.io/badge/VIDEO-red?style=for-the-badge'></a> <a href='https://rackvisor.gitbook.io/mwms-git-book/'><img src='https://img.shields.io/badge/GIT BOOK-blue?style=for-the-badge'></a> <a href='https://topaz-echium-20b.notion.site/MWMS-c0ecac5ed3cc489284570ae1606e7a10'><img src='https://img.shields.io/badge/DOCS-gray?style=for-the-badge'></a>
+<a href=''><img src='https://img.shields.io/badge/VIDEO-red?style=for-the-badge'></a> <a href='https://rackvisor.gitbook.io/mwms-git-book/'><img src='https://img.shields.io/badge/GIT BOOK-blue?style=for-the-badge'></a> <a href='https://topaz-echium-20b.notion.site/MWMS-c0ecac5ed3cc489284570ae1606e7a10'><img src='https://img.shields.io/badge/DOCS-gray?style=for-the-badge'></a> <a href="https://rackvisor.duckdns.org/"><img src="https://img.shields.io/badge/DEMO-white?style=for-the-badge"></a>
 <br/>
 
 </div>
 
-<div align="center"><img src="docs\image\mwms-logo.PNG"></div>
-
-<br/><br/>
+<br/>
 
 > 군인**의**, 군인을 **위한**, 군인에 **의한** <br/>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; 창고 관리 시스템, &#160;&#160; **"국방물자관리체계"**
 
@@ -170,7 +167,7 @@ https://rackvisor.duckdns.org
 ```bash
 $ git clone git주소
 $ cd WEB(BE)
-$ yarn install
+$ yarn
 $ yarn start or yarn dev
 ```
 
@@ -179,9 +176,9 @@ $ yarn start or yarn dev
 
 ```bash
 $ git clone git주소
-$ cd WEB(FE)
-$ npm i
-$ npm start
+$ cd WEB(FE)/mwms
+$ yarn
+$ yarn start
 ```
 
 <br/>
