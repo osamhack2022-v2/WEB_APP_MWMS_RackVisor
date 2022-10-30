@@ -242,7 +242,7 @@ app-debug.apk 파일 설치
 <td align="center">YES</td>
 <td align="center">11+</td>
 <td align="center">YES</td>
-<td align="center">Not Perfect</td>
+<td align="center">YES</td>
 <td align="center">YES</td>
 </tr>
 
