@@ -209,7 +209,7 @@ $ flutter build ipa                                              (ios)
 
 - ECMAScript 6 지원 브라우저 사용
 - 권장: Google Chrome 버젼 77 이상
-
+- 권장 해상도: 1920 x 1200
 <table width="900">
 
 <thead>
@@ -236,7 +236,7 @@ $ flutter build ipa                                              (ios)
 <td align="center">YES</td>
 <td align="center">11+</td>
 <td align="center">YES</td>
-<td align="center">YES</td>
+<td align="center">Not Perfect</td>
 <td align="center">YES</td>
 </tr>
 
