@@ -186,7 +186,7 @@ $ yarn start
 
  <a href="https://drive.google.com/file/d/1avcWPXS_i4hMbNb-PtlJViNhZGNbieYW/view?usp=sharing">apk 다운로드하기</a>
 위에 링크를 클릭후 다운을 받아준 후 압축해제
-<img src="docs/image/load.png">
+<img src="docs/image/load.PNG">
 app-debug.apk 파일 설치
   
 
