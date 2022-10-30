@@ -183,7 +183,7 @@ $ yarn start
 
 <br/>
 <h4>프론트-앱 설치</h4>
-APK 빌드 파일은 별도 첨부
+  <div>APK 빌드 파일은 레포지토리 별도 첨부</div>
 ```bash
 $ git clone git주소
 $ cd APP(FE)
