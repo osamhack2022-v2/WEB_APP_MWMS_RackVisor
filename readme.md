@@ -176,7 +176,7 @@ $ yarn start or yarn dev
 
 ```bash
 $ git clone git주소
-$ cd WEB(FE)/mwms
+$ cd WEB\(FE\)/mwms
 $ yarn
 $ yarn start
 ```
