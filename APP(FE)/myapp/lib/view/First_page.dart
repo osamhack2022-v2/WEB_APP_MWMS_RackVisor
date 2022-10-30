@@ -32,20 +32,6 @@ class _FirstPage extends State<FirstPage> {
 	}
 
   
-  @override
-	void dispose() {
-		super.dispose();
-		build(context);
-	}
-
-
-
- 
-
-
-
-
-
   //공지사항 page 전환
   noticeGridview(AsyncSnapshot<List<NoticeScreenModel>> snapshot) {
       return Padding(
@@ -87,25 +73,11 @@ class _FirstPage extends State<FirstPage> {
 
 
 
-
-
-
-
-
-
-
   circularProgress() {
     return const Center(child: CircularProgressIndicator());
   }
 
-  
 
-  @override
-  void setState(VoidCallback fn) {
-    // TODO: implement setState
-    super.setState(fn);
-  }
- 
  
   @override
   Widget build(BuildContext context) {
@@ -229,11 +201,8 @@ class _FirstPage extends State<FirstPage> {
                     )  
                           ),
                  
+   
                      
-
-
-
-                      
                     ]
         )  
 
