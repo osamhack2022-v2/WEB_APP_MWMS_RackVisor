@@ -209,7 +209,8 @@ $ flutter build ipa                                              (ios)
 
 - ECMAScript 6 지원 브라우저 사용
 - 권장: Google Chrome 버젼 77 이상
-- 권장 해상도: 1920 x 1200
+- 권장 해상도: 1920 x 1200 
+  (권장 해상도가 아닐 경우 일부 요소가 보이지 않을 수 있음)
 <table width="900">
 
 <thead>
