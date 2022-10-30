@@ -1,10 +1,10 @@
 name: myapp
 description: A new Flutter project.
-
+ 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
-
+ 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
 # followed by an optional build number separated by a +.
@@ -18,10 +18,10 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
 version: 1.0.0+1
-
+ 
 environment:
   sdk: '>=2.18.2 <3.0.0'
-
+ 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
 # consider running `flutter pub upgrade --major-versions`. Alternatively,
@@ -31,49 +31,52 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-    
-
-
+ 
+   
+ 
+ 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-
+ 
   # flutter getx
   get: ^4.6.5
-
+ 
   # hexcolor
   hexcolor: ^3.0.0
-
+ 
   #stylish_bottom_bar
-  stylish_bottom_bar: ^0.1.5 
-
+  stylish_bottom_bar: ^0.1.5
+ 
   dio: ^4.0.6
-
+ 
   #http
   http: ^0.13.5
-
+ 
   #screnn_util
   flutter_screenutil: ^5.5.4
-
+ 
   #icon
   line_awesome_flutter: ^2.0.0
-
+ 
   #qrScanner
   qr_code_scanner: ^1.0.1
-  
+ 
   #carousel_slider
   carousel_slider: ^4.1.1
-
+ 
   flutter_native_splash: ^2.2.12
   intl: ^0.17.0
   flutter_qr_bar_scanner: ^3.0.2
   url_launcher: ^6.1.6
-  
+ 
+  mobile_scanner: ^2.0.0
+ 
+ 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+ 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
@@ -81,29 +84,29 @@ dev_dependencies:
   # rules and activating additional ones.
   #lints
   flutter_lints: ^2.0.0
-
+ 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
-
+ 
 # The following section is specific to Flutter packages.
 flutter:
-
+ 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-
+ 
   # To add assets to your application, add an assets section, like this:
   assets:
     - images/
-
-
+ 
+ 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
-
+ 
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/assets-and-images/#from-packages
-
+ 
   # To add custom fonts to your application, add a fonts section here,
   # in this "flutter" section. Each entry in this list should have a
   # "family" key with the font family name, and a "fonts" key with a
