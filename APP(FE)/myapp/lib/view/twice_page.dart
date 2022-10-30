@@ -52,4 +52,10 @@ class _TwicePageState extends State<TwicePage> {
      });
   }
 
+  @override
+  void dispose() {
+    controller!.dispose();
+    super.dispose();
+  }
+
 }
