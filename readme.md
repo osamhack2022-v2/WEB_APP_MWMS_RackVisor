@@ -185,8 +185,11 @@ $ yarn start
 <h4>프론트-앱 설치 (APK 파일 레포지토리 별도 첨부)</h4>
 
  <a href="https://drive.google.com/file/d/1avcWPXS_i4hMbNb-PtlJViNhZGNbieYW/view?usp=sharing">apk 다운로드하기</a>
+<br/>
 위에 링크를 클릭후 다운을 받아준 후 압축해제
+<br/>
 <img src="docs/image/load.PNG">
+<br/>
 app-debug.apk 파일 설치
   
 
