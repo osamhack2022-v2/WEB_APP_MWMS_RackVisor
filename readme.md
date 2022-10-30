@@ -15,7 +15,7 @@
 
 ---
 
-<a href=''><img src='https://img.shields.io/badge/VIDEO-red?style=for-the-badge'></a> <a href='https://rackvisor.gitbook.io/mwms-git-book/'><img src='https://img.shields.io/badge/GIT BOOK-blue?style=for-the-badge'></a> <a href='https://topaz-echium-20b.notion.site/MWMS-c0ecac5ed3cc489284570ae1606e7a10'><img src='https://img.shields.io/badge/DOCS-gray?style=for-the-badge'></a> <br/><a href="https://rackvisor.duckdns.org/"><img src="https://img.shields.io/badge/WEB DEMO-red?style=for-the-badge"></a>
+<a href=''><img src='https://img.shields.io/badge/VIDEO-red?style=for-the-badge'></a> <a href='https://rackvisor.gitbook.io/mwms-git-book/'><img src='https://img.shields.io/badge/GIT BOOK-blue?style=for-the-badge'></a> <a href='https://topaz-echium-20b.notion.site/MWMS-c0ecac5ed3cc489284570ae1606e7a10'><img src='https://img.shields.io/badge/DOCS-gray?style=for-the-badge'></a> <br/><a href="https://rackvisor.duckdns.org/"><img src="https://img.shields.io/badge/WEB DEMO-red?style=for-the-badge"></a><a href='https://mwms-app.web.app/'><img src='https://img.shields.io/badge/APP DEMO-blue?style=for-the-badge'></a> 
 <br/>
 
 </div>
@@ -209,7 +209,7 @@ $ flutter build ipa                                              (ios)
 
 - ECMAScript 6 지원 브라우저 사용
 - 권장: Google Chrome 버젼 77 이상
-- 권장 해상도: 1920 x 1200 
+- 권장 해상도: 1920 x 1200 (WEB) / 414 x 896 (APP)
   <br/>(권장 해상도가 아닐 경우 일부 요소가 보이지 않을 수 있음)
 - 데모용 계정 : 1234 / string
   <br/>(참고용 부대 : MWMS 사령부)
