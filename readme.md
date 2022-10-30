@@ -382,4 +382,4 @@ This project is licensed under the terms of the MIT license.
 
 <h2>더 자세한 정보...</h2>
 
-더 자세한 정보는 [GIT-BOOK]()을 통해 확인하세요!
+더 자세한 정보는 [GIT-BOOK](https://rackvisor.gitbook.io/mwms-git-book/)을 통해 확인하세요!
