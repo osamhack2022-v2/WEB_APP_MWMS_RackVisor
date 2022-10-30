@@ -157,90 +157,92 @@ class _FirstPage extends State<FirstPage> {
     
     
   
-    return Scaffold(
-      body: CustomScrollView(
-        slivers: [ 
-          SliverAppBar(
-            //백버튼 막기
-            automaticallyImplyLeading: false,
-            elevation: 5,
-            backgroundColor: Colors.white,
-            expandedHeight: 220.h,
-            flexibleSpace: 
-                  //이미지
-                      Container(
-                        padding: EdgeInsets.only(top: 20.w,left: 40.w,right: 40.w),
-                        child: FutureBuilder<List<NoticeScreenModel>>(
-                        future: noticeScreenService(),
-                        builder: (context, snapshot) {
-                           if (snapshot.hasError) {
-                            return Text('Error ${snapshot.error}');
+    return SafeArea(
+      child: Scaffold(
+        body: CustomScrollView(
+          slivers: [ 
+            SliverAppBar(
+              //백버튼 막기
+              automaticallyImplyLeading: false,
+              elevation: 5,
+              backgroundColor: Colors.white,
+              expandedHeight: 220.h,
+              flexibleSpace: 
+                    //이미지
+                        Container(
+                          padding: EdgeInsets.only(top: 20.w,left: 40.w,right: 40.w),
+                          child: FutureBuilder<List<NoticeScreenModel>>(
+                          future: noticeScreenService(),
+                          builder: (context, snapshot) {
+                             if (snapshot.hasError) {
+                              return Text('Error ${snapshot.error}');
+                            }
+                            if (snapshot.hasData) {
+                              return noticeGridview(snapshot);
+                            }
+                            return circularProgress();
                           }
-                          if (snapshot.hasData) {
-                            return noticeGridview(snapshot);
-                          }
-                          return circularProgress();
-                        }
-                )  
+                  )  
+                        ),
+
+          ),
+
+            //메인 밑
+            Expanded(
+              child: SliverToBoxAdapter(
+                child: Expanded(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+
+                      SizedBox(
+                        height: 20.h,
                       ),
 
-        ),
-
-          //메인 밑
-          SliverToBoxAdapter(
-            child: Expanded(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-
-                  SizedBox(
-                    height: 20.h,
-                  ),
-
-                  Container(
-                    padding: EdgeInsets.only(left: 40.w,right: 40.w),
-                    height: 30.h,
-                    child: searchBarController.searchBar(),
-                  ),
-
-                  Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  mainAxisSize: MainAxisSize.min,
-                children: <Widget>[
-
-         
                       Container(
-                        height: 150.h,
-                        padding: EdgeInsets.only(top: 20.w,left: 40.w,right: 40.w),
-                        child: FutureBuilder<List<AramModel>>(
-                        future: AramService(),
-                        builder: (context, snapshot) {
-                           if (snapshot.hasError) {
-                            return Text('Error ${snapshot.error}');
-                          }
-                          if (snapshot.hasData) {
-                            return AramGridview(snapshot);
-                          }
-                          return circularProgress();
-                        }
-                )  
+                        padding: EdgeInsets.only(left: 40.w,right: 40.w),
+                        height: 30.h,
+                        child: searchBarController.searchBar(),
                       ),
-             
+
+                      Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+
+           
+                          Container(
+                            height: 150.h,
+                            padding: EdgeInsets.only(top: 20.w,left: 40.w,right: 40.w),
+                            child: FutureBuilder<List<AramModel>>(
+                            future: AramService(),
+                            builder: (context, snapshot) {
+                               if (snapshot.hasError) {
+                                return Text('Error ${snapshot.error}');
+                              }
+                              if (snapshot.hasData) {
+                                return AramGridview(snapshot);
+                              }
+                              return circularProgress();
+                            }
+                    )  
+                          ),
                  
+                     
 
 
 
-                  
-                ]
-      )
+                      
+                    ]
+        )  
 
-                  
-
-              ]),
-            ),
-          )
-        ],
+                  ]),
+                ),
+              ),
+            )
+          ],
+        ),
       ),
     );
  
