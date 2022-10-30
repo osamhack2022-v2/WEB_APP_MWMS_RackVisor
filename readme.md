@@ -15,7 +15,8 @@
 ---
 
 <a href='https://youtu.be/p8DObYpW4ew'><img src='https://img.shields.io/badge/VIDEO-red?style=for-the-badge'></a> <a href='https://rackvisor.gitbook.io/mwms-git-book/'><img src='https://img.shields.io/badge/GIT BOOK-blue?style=for-the-badge'></a> <a href='https://topaz-echium-20b.notion.site/MWMS-c0ecac5ed3cc489284570ae1606e7a10'><img src='https://img.shields.io/badge/DOCS-gray?style=for-the-badge'></a> <br/><a href="https://rackvisor.duckdns.org/"><img src="https://img.shields.io/badge/WEB DEMO-red?style=for-the-badge"></a> <a href='https://mwms-app.web.app/'><img src='https://img.shields.io/badge/APP DEMO-blue?style=for-the-badge'></a> 
-<p style="color:grey; font-size:50%" >id : 1234 / pw : string<br/>MWMS 사령부</p>
+ <br/> **`id : 1234 / pw : string`**<br/>
+ **`MWMS 사령부`**
 <br/>
 
 </div>
@@ -211,9 +212,9 @@ app-debug.apk 파일 설치
 - ECMAScript 6 지원 브라우저 사용
 - 권장: Google Chrome 버젼 77 이상
 - 권장 해상도: 1920 x 1200 (WEB) / 414 x 896 (APP)
-  <br/>(권장 해상도가 아닐 경우 일부 요소가 보이지 않을 수 있음)
+  <br/>권장 해상도가 아닐 경우 일부 요소가 보이지 않을 수 있음
   <br/>박스/물자 추가 오류 발생 시 창고 관리 - 캐비넷 추가 후 저장
-  <br/>APP DEMO 웹 상에서 홈페이지가 보이지 않는 오류 (APK 빌드에서는 정상 작동합니다)
+  <br/>APP DEMO 웹 상에서 홈페이지가 로딩되지 않습니다 - APK 빌드에서는 정상 작동합니다
 <table width="900">
 
 <thead>
