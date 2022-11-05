@@ -15,8 +15,6 @@
 ---
 
 <a href='https://youtu.be/p8DObYpW4ew'><img src='https://img.shields.io/badge/VIDEO-red?style=for-the-badge'></a> <a href='https://rackvisor.gitbook.io/mwms-git-book/'><img src='https://img.shields.io/badge/GIT BOOK-blue?style=for-the-badge'></a> <a href='https://topaz-echium-20b.notion.site/MWMS-c0ecac5ed3cc489284570ae1606e7a10'><img src='https://img.shields.io/badge/DOCS-gray?style=for-the-badge'></a> <br/><a href="https://rackvisor.duckdns.org/"><img src="https://img.shields.io/badge/WEB DEMO-red?style=for-the-badge"></a> <a href='https://mwms-app.web.app/'><img src='https://img.shields.io/badge/APP DEMO-blue?style=for-the-badge'></a> 
- <br/> **`id : 1234 / pw : string`**<br/>
- **`MWMS 사령부`**
 <br/>
 
 </div>
