@@ -20,6 +20,7 @@ services:
     depends_on:
       - rackvisor_db
     restart: always
+    # After the backend container first boots, run `npx prisma migrate dev` command to make db schema to mysql.
 
   rackvisor_frontend:
     container_name: rackvisor_frontend
@@ -36,7 +37,6 @@ services:
       - 80:80
     depends_on:
       - rackvisor_frontend
-    # restart: never
     volumes:
       - ./config/default.conf:/etc/nginx/conf.d/default.conf
     environment:
