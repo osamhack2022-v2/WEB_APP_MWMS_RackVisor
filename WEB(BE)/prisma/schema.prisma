@@ -1,6 +1,6 @@
 datasource db {
   provider = "mysql"
-  url      = "mysql://root:root@localhost:3306/my_db"
+  url      = "mysql://root:root@rackvisor_db:3306/my_db"
 }
 
 generator client {
