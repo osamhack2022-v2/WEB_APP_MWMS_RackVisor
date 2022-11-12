@@ -17,8 +17,13 @@ services:
     container_name: rackvisor_backend
     image: poxios/rackvisor-backend:1.0.0
     pull_policy: never
-    links:
-      - "rackvisor_db"
+    command:
+      - /bin/sh
+      - -c
+      - |
+          npx prisma migrate dev
+    depends_on:
+      - rackvisor_db
     restart: always
 
   rackvisor_frontend:
@@ -32,11 +37,13 @@ services:
   rackvisor_nginx:
     container_name: rackvisor_nginx
     image: nginx:latest
+    ports:
+      - 80:80
     depends_on:
       - rackvisor_frontend
-    restart: always
+    # restart: never
     volumes:
-      - ./config/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./config/default.conf:/etc/nginx/conf.d/default.conf
     environment:
-      - FRONTEND_HOST=rackvisor_frontend
-      - BACKEND_HOST=rackvisor_backend
+      FRONTEND_HOST: rackvisor_frontend
+      BACKEND_HOST: rackvisor_backend
