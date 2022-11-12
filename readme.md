@@ -12,17 +12,16 @@
 <a href="https://github.com/osamhack2022-v2/WEB_APP_MWMS_RackVisor/blob/master/license.md"><img src='https://img.shields.io/badge/License-MIT-black?style=for-the-badge&logo'></a>
 
 <a href="https://github.com/osamhack2022-v2/WEB_APP_MWMS_RackVisor/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/osamhack2022-v2/WEB_APP_MWMS_RackVisor?color=success"></a> <a href="https://github.com/osamhack2022-v2/WEB_APP_MWMS_RackVisor/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/osamhack2022-v2/WEB_APP_MWMS_RackVisor"></a> <a href="https://github.com/osamhack2022-v2/WEB_APP_MWMS_RackVisor/network/members"><img alt="GitHub forks" src="https://img.shields.io/github/forks/osamhack2022-v2/WEB_APP_MWMS_RackVisor"></a> <a href="https://github.com/osamhack2022-v2/WEB_APP_MWMS_RackVisor/search?l=JavaScript&type=code"><img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osamhack2022-v2/WEB_APP_MWMS_RackVisor"></a>
-
 ---
 
-<a href=''><img src='https://img.shields.io/badge/VIDEO-red?style=for-the-badge'></a> <a href='https://rackvisor.gitbook.io/mwms-git-book/'><img src='https://img.shields.io/badge/GIT BOOK-blue?style=for-the-badge'></a> <a href='https://topaz-echium-20b.notion.site/MWMS-c0ecac5ed3cc489284570ae1606e7a10'><img src='https://img.shields.io/badge/DOCS-gray?style=for-the-badge'></a> <a href="https://rackvisor.duckdns.org/"><img src="https://img.shields.io/badge/DEMO-white?style=for-the-badge"></a>
-<br/>
+<a href='https://youtu.be/p8DObYpW4ew'><img src='https://img.shields.io/badge/VIDEO-red?style=for-the-badge'></a> <a href='https://rackvisor.gitbook.io/mwms-git-book/'><img src='https://img.shields.io/badge/GIT BOOK-blue?style=for-the-badge'></a> <a href='https://topaz-echium-20b.notion.site/MWMS-c0ecac5ed3cc489284570ae1606e7a10'><img src='https://img.shields.io/badge/DOCS-gray?style=for-the-badge'></a> <br/><a href="https://rackvisor.duckdns.org/"><img src="https://img.shields.io/badge/WEB DEMO-red?style=for-the-badge"></a> <a href='https://mwms-app.web.app/'><img src='https://img.shields.io/badge/APP DEMO-blue?style=for-the-badge'></a> 
+<br/> **`악의적인 사용을 막기 위해 계정정보는 담당 멘토(차용빈)에게 확인 부탁드립니다`**<br/>
 
 </div>
 
 <br/>
 
-<img src="docs\image\mwms-txt.PNG">
+<div align="center"><img src="docs\image\mwms-txt.PNG"></div>
 
 ---
 
@@ -137,7 +136,7 @@
 
 <tr>
 <td width ="450" align="center">단순 웹사이트만 제공하는<br/>  체계들과 달리 <b>휴대폰</b>을 활용하여<br/>  창고에 직접 접속하여 <b>물품의 리스트</b>를 확인<br/> <b>QR 코드</b>를 인식하여 조회할 수 있는 <br/> <b>QR코드 검색 기능</b></td>
-<td width ="450" align="center"><img src="docs\gif\app.gif" width=60%"></td>
+<td width ="450" align="center"><img src="https://user-images.githubusercontent.com/113528011/198864614-fea1d5d4-a0d0-491b-b9ae-3b8956021c7c.gif" width=60%"></td>
 </tr>
 
 </table>
@@ -176,21 +175,22 @@ $ yarn start or yarn dev
 
 ```bash
 $ git clone git주소
-$ cd WEB(FE)/mwms
+$ cd WEB\(FE\)/mwms
 $ yarn
 $ yarn start
 ```
 
 <br/>
-<h4>프론트-앱 설치</h4>
+<h4>프론트-앱 설치 (APK 파일 레포지토리 별도 첨부)</h4>
 
-```bash
-$ git clone git주소
-$ cd APP(FE)
-$ flutter build apk --release --target-platform=android-arm64   (Android)
-$ ...or
-$ flutter build ipa                                              (ios)
-```
+ <a href="https://drive.google.com/file/d/1avcWPXS_i4hMbNb-PtlJViNhZGNbieYW/view?usp=sharing">apk 다운로드하기</a>
+<br/>
+위에 링크를 클릭후 다운을 받아준 후 압축해제
+<br/>
+<img src="docs/image/load.PNG">
+<br/>
+app-debug.apk 파일 설치
+  
 
 <br/>
 
@@ -209,7 +209,10 @@ $ flutter build ipa                                              (ios)
 
 - ECMAScript 6 지원 브라우저 사용
 - 권장: Google Chrome 버젼 77 이상
-
+- 권장 해상도: 1920 x 1200 (WEB) / 414 x 896 (APP)
+  <br/>권장 해상도가 아닐 경우 일부 요소가 보이지 않을 수 있음
+  <br/>박스/물자 추가 오류 발생 시 창고 관리 - 캐비넷 추가 후 저장
+  <br/>APP DEMO 웹 상에서 홈페이지가 로딩되지 않습니다 - APK 빌드에서는 정상 작동합니다
 <table width="900">
 
 <thead>
@@ -382,4 +385,4 @@ This project is licensed under the terms of the MIT license.
 
 <h2>더 자세한 정보...</h2>
 
-더 자세한 정보는 [GIT-BOOK]()을 통해 확인하세요!
+더 자세한 정보는 [GIT-BOOK](https://rackvisor.gitbook.io/mwms-git-book/)을 통해 확인하세요!

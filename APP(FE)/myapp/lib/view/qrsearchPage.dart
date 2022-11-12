@@ -21,17 +21,7 @@ class _QrSearchResultPageState extends State<QrSearchResultPage> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          //백버튼 막기
-          automaticallyImplyLeading: false,
           title: Text('검색결과'),
-          actions: [
-            IconButton(
-              onPressed: () {
-                showSearch(context: context, delegate: SearchUser());
-              },
-              icon: Icon(Icons.search_sharp),
-            )
-          ],
         ),
         body: Container(
           padding: EdgeInsets.all(20),
