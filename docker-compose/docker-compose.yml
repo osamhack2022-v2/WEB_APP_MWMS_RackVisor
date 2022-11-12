@@ -17,11 +17,6 @@ services:
     container_name: rackvisor_backend
     image: poxios/rackvisor-backend:1.0.0
     pull_policy: never
-    command:
-      - /bin/sh
-      - -c
-      - |
-          npx prisma migrate dev
     depends_on:
       - rackvisor_db
     restart: always
