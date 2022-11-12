@@ -2,7 +2,7 @@ import axios from "axios";
 
 const axiosInstance = axios.create({
   withCredentials: true,
-  baseURL: "https://rackvisor.duckdns.org/api",
+  baseURL: `https://${window.location.hostname}/api`,
 });
 
 export const axiosGet = async (targetApiUrl) => {
