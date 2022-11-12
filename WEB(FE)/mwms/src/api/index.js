@@ -2,7 +2,7 @@ import axios from "axios";
 
 const axiosInstance = axios.create({
   withCredentials: true,
-  baseURL: `${window.location.protocol}://${window.location.hostname}/api`,
+  baseURL: `${window.location.protocol}//${window.location.hostname}/api`,
 });
 
 export const axiosGet = async (targetApiUrl) => {
